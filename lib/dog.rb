@@ -18,7 +18,7 @@ class Dog
    end
    def self.print_all
       @@all.each do |na|
-        puts 
+        puts
     end
    end
    def save
