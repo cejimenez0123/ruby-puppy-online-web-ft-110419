@@ -8,7 +8,7 @@ class Dog
      @name
    end
    def save
-       @@all<< self
+       @@all.push(Dog.new)
    end
    def all
      @@all
