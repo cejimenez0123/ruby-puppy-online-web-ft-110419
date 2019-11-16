@@ -4,7 +4,6 @@ class Dog
   @@dog_instance= []
    def initialize(name)
      @name = name
-     @@all.push(self)
      save
    end
    def name
