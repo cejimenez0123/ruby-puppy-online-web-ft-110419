@@ -10,7 +10,7 @@ class Dog
    def save
        @@all.push(Dog.new)
    end
-   def all
+   def self.all
      @@all
    end
 end
