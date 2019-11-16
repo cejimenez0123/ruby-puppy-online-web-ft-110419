@@ -18,10 +18,10 @@ class Dog
    end
    def self.print_all
       @@all.each do |na|
-        puts @name
+        puts 
     end
    end
    def save
-      @@all.push(self)
+      @@all.push(@name)
    end
 end
